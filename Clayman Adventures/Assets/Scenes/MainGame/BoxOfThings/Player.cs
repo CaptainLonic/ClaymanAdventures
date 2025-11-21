@@ -18,6 +18,11 @@ public class Player : MonoBehaviour
         float xInput = Input.GetAxis("Horizontal");
         float yInput = Input.GetAxis("Vertical");
 
+        if (Mathf.Abs(xInput) > 0)
+        {
 
+
+
+        }
     }
 }
