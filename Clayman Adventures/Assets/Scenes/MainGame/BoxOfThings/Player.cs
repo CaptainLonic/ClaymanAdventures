@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
     float horizontalInput;
     float moveSpeed = 5f;
     bool isFacingRight = false;
-    float jumpPower = 4f;
+    float jumpPower = 8f;
     bool isJumping = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
